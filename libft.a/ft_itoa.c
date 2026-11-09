@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nspivak <nspivak@student.42.fr>            +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/06 14:40:07 by nspivak           #+#    #+#             */
-/*   Updated: 2026/11/09 17:37:25 by nspivak          ###   ########.fr       */
+/*   Updated: 2026/11/10 00:21:32 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_count(int n)
+static int	ft_count(int n)
 {
 	int			i;
 	long int	nb;
