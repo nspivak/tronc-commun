@@ -6,7 +6,7 @@
 /*   By: nspivak <nspivak@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 15:06:30 by nspivak           #+#    #+#             */
-/*   Updated: 2026/11/03 14:06:31 by nspivak          ###   ########.fr       */
+/*   Updated: 2026/11/09 16:26:32 by nspivak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 int	ft_isalnum(int c)
 {
-	return(ft_isalpha(c) || ft_isdigit(c));
+	return (ft_isalpha(c) || ft_isdigit(c));
 }

@@ -6,13 +6,11 @@
 /*   By: nspivak <nspivak@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/16 18:29:23 by nspivak           #+#    #+#             */
-/*   Updated: 2026/11/03 13:38:03 by nspivak          ###   ########.fr       */
+/*   Updated: 2026/11/09 16:44:54 by nspivak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "libft.h"
-
-
+#include "libft.h"
 
 char	*ft_strcpy(char *dest, char *src)
 {
@@ -33,6 +31,8 @@ char	*ft_strdup(char *src)
 	char	*cpy;
 
 	cpy = malloc(sizeof(char) * ft_strlen(src) + 1);
+	if (!cpy)
+		return (NULL);
 	ft_strcpy(cpy, src);
 	return (cpy);
 }

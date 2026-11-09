@@ -6,13 +6,13 @@
 /*   By: nspivak <nspivak@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 16:58:23 by nspivak           #+#    #+#             */
-/*   Updated: 2026/11/03 17:05:45 by nspivak          ###   ########.fr       */
+/*   Updated: 2026/11/09 16:47:03 by nspivak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "libft.h"
+#include "libft.h"
 
-size_t ft_strlcpy(char *dst, const char *src, size_t size)
+size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
 	size_t	i;
 	size_t	temp;
