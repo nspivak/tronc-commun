@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by <nspivak>.*
+*This project has been created as part of the 42 curriculum by [nspivak].*
 
 ## Description
 Libft est le premier projet du tronc commun de 42. Son objectif est de recoder un ensemble de fonctions de la bibliothèque standard du C (libc), ainsi que des fonctions utilitaires supplémentaires et des fonctions de manipulation de listes chaînées. Ce projet permet de comprendre le fonctionnement de fonctions fondamentales, de maîtriser la gestion de la mémoire dynamique, et de se doter d'une bibliothèque personnelle réutilisable pour les projets futurs du cursus.
